@@ -17,7 +17,7 @@ body{
 
 .navbar{
     padding: 6px;
-    background-image: linear-gradient(to left, rgb(255, 5, 180), rgb(0, 0, 0)); 
+    background-image: linear-gradient(to left, rgb(255, 5, 180), rgb(0, 0, 0));
     display: grid;
     grid-template-columns: repeat(12,1fr);
     align-items: center;
@@ -33,7 +33,7 @@ body{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-duration: 3s;
-    animation-delay: 2s;
+    animation-delay: 3s;
 }
 @keyframes rotar_logo {
     0%{
@@ -49,6 +49,7 @@ body{
     }
     
 }
+
 .navbar .menu{
     display: flex;
     justify-content: space-around;
@@ -244,7 +245,7 @@ body{
     height: 50px;
     align-items: center;
     background-image: linear-gradient(to left, rgb(255, 5, 180), rgb(0, 0, 0));
-    color: rgb(59, 58, 58);
+    color: rgb(199, 179, 179);
     grid-template-areas: "desarrollado seguime redes-sociales";
 }
 
